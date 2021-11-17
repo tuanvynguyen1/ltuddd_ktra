@@ -12,7 +12,7 @@ class web extends StatelessWidget {
         centerTitle: true,
       ),
       body: WebView(
-        initialUrl: "https://www.facebook.com/",
+        initialUrl: url,
       ),
     );
   }
